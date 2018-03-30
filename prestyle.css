@@ -51,12 +51,12 @@ a.bttn-dark:focus {
   color: #fff;
 }
 .bttn {
-  font-size: 18px;
+  font-size: 75%;
   letter-spacing: 2px;
   text-transform: uppercase;
   display: inline-block;
   text-align: center;
-  width: 270px;
+  width: 320px;
   font-weight: bold;
   padding: 14px 0px;
   border: 3px solid #ff0072;
@@ -96,7 +96,7 @@ a.bttn-dark:focus {
   text-transform: uppercase;
   display: inline-block;
   text-align: center;
-  width: 270px;
+  width: 300px;
   font-weight: bold;
   padding: 14px 0px;
   border: 3px solid #644cad;
@@ -216,4 +216,21 @@ i
 #top2{
 	z-index:-1;
 	background-color:#001232;
+}
+
+.bttn{
+  width: 45%;
+}
+
+
+@media screen and (max-width: 1300px) {
+    .bttn{
+      font-size:50%;
+    }
+}
+
+@media screen and (max-device-width: 1080px) {
+    .bttn{
+      font-size:100%;
+    }
 }
